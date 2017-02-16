@@ -61,7 +61,7 @@ socket.on('newLocationMessage', function (message) {
         createdAt: formattedTime
     });
     jQuery('#messages').append(html);
-    scollToBottom();
+    scrollToBottom();
 });
 
 jQuery('#message-form').on('submit', function (e) {
